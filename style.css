@@ -1,0 +1,50 @@
+body {
+    background-color: #2abf82;
+    font-family: 'Open Sans', sans-serif;
+}
+@media (max-width: 767.98px) {
+    .navbar-brand {
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar-text {
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+    }
+
+    .container-fluid {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.col {
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.col:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    background-color: #2abf82; /* Sesuaikan dengan warna yang Anda inginkan */
+}
+
+/* CSS tambahan untuk memastikan menu toggle terbaca dengan baik */
+@media (max-width: 767.98px) {
+    .navbar-nav .nav-item {
+        margin: 0.5rem 0;
+    }
+    .navbar-nav .nav-link {
+        font-size: 1.2rem; /* Menyesuaikan ukuran font untuk perangkat kecil */
+        padding: 0.5rem 1rem; /* Menambahkan padding untuk memudahkan klik */
+    }
+}
